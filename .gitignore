@@ -10,3 +10,5 @@ spatula-cache.db
 .idea/
 .pre-commit-config.yaml
 env/
+data/**/*.pickle
+alternate_formats/
