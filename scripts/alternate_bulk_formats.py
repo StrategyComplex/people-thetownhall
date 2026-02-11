@@ -195,6 +195,7 @@ def generate_legislator_json():
                         json_out_filename)
 
 if __name__ == '__main__':
+    print("Generating alternate bulk formats for People...")
     # Use absolute path based on script location to avoid permission issues in debugger
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, '../data/')
